@@ -5,9 +5,10 @@ public class RemoveDuplicates {
 
 
     public static void main(String[] args) {
-        int [] a = {2,5,7,1,2,3};
+        int [] a = {0,0,1,1,1,2,2,3,3,4};
 
         System.out.println(removeDuplicates(a));
+        System.out.println(Arrays.toString(a));
     }
 
     public static int removeDuplicates(int[] nums) {
